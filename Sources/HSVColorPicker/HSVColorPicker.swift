@@ -9,9 +9,9 @@ import SwiftUI
 
 @available(macOS 11.0, *)
 public struct HSVColorPicker: View {
+    @Binding public var colorSelection : Color
     @State public var showColorPicker : Bool = false
     @State public var hue : Double = 0
-    @Binding public var colorSelection : Color
     @State public var brightness : Double = 1.0
     @State public var saturation : Double = 0.0
     @State public var wheelLocation : CGPoint = CGPoint(x: 90.0, y: 90.0)
