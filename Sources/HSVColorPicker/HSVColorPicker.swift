@@ -37,7 +37,7 @@ public struct HSVColorPicker: View {
                         .frame(width: 20.0, height: 20.0)
                     Text(colorSelection.toHexString())
                     Spacer()
-                }.frame(width: 85.0)
+                }.frame(width: 90.0)
             }.buttonStyle(.borderless)
                 .popover(isPresented: $showColorPicker, arrowEdge: .bottom) {
                     MainView(
