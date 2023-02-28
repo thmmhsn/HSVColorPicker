@@ -17,6 +17,8 @@ public struct ColorWheelView: View {
     @Binding public var hue : Double
     @Binding public var saturation : Double
     @Binding public var brightness : Double
+    
+
     public var body: some View{
         ZStack{
             Circle()

@@ -15,7 +15,7 @@ struct MainView: View {
     @Binding public var saturation : Double
     @Binding public var wheelLocation : CGPoint
     @Binding public var sliderLocation : Double
-
+  
     var body: some View {
         VStack(spacing: 0){
             

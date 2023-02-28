@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(macOS 11.0, *)
-struct HueColorPicker: View {
+struct HSVColorPicker: View {
     @State public var showColorPicker = false
     @State public var colorSelection : Color = .white
     @State public var hue : Double = 0
@@ -17,6 +17,8 @@ struct HueColorPicker: View {
     @State public var wheelLocation = CGPoint(x: 90.0, y: 90.0)
     @State public var sliderLocation : Double = 10.0
     static var text : String = "Hello, World!"
+    
+    
     public var body: some View {
             Button{
                 showColorPicker.toggle()
@@ -45,6 +47,6 @@ struct HueColorPicker: View {
 @available(macOS 11.0, *)
 struct HSVColorPicker_Previews: PreviewProvider {
     static var previews: some View {
-        HueColorPicker()
+        HSVColorPicker()
     }
 }

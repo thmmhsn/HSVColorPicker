@@ -14,7 +14,10 @@ struct BrightnessSlider: View {
     @Binding public var hue : Double
     @Binding public var saturation : Double
     @Binding public var brightness : Double
-    var body: some View {
+    
+ 
+    
+    public var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 7.0)
                 .stroke(.gray.opacity(0.5), lineWidth: 2)
@@ -54,9 +57,9 @@ struct BrightnessSlider: View {
     }
 }
 
-@available(macOS 11.0, *)
-struct BrightnessSlider_Previews: PreviewProvider {
-    static var previews: some View {
-        BrightnessSlider(colorSelection: .constant(.red), location: .constant(10), hue: .constant(2.0), saturation: .constant(1.0), brightness: .constant(1.0))
-    }
-}
+//@available(macOS 11.0, *)
+//struct BrightnessSlider_Previews: PreviewProvider {
+//    static var previews: some View {
+//        BrightnessSlider(color: .red, location: 0, hue: 0, saturation: 0, brightness: 0)
+//    }
+//}
