@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(macOS 11.0, *)
-struct BrightnessSlider: View {
+public struct BrightnessSlider: View {
     @Binding public var colorSelection : Color
     @Binding var location: Double
     @Binding public var hue : Double

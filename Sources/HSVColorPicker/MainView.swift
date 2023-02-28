@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(macOS 11.0, *)
-struct MainView: View {
+public struct MainView: View {
     @Binding public var colorSelection : Color
     @Binding public var hue : Double
     @Binding public var brightness : Double
@@ -43,8 +43,8 @@ struct MainView: View {
     }
 }
 @available(macOS 11.0, *)
-struct MainView_Previews: PreviewProvider {
-    static var previews: some View {
+public struct MainView_Previews: PreviewProvider {
+    public static var previews: some View {
         MainView(colorSelection: .constant(.red), hue: .constant(0), brightness: .constant(1), saturation: .constant(0), wheelLocation: .constant(CGPoint(x: 0, y: 0)), sliderLocation: .constant(0.0))
     }
 }

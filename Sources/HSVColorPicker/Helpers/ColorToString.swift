@@ -10,7 +10,7 @@ import SwiftUI
 
 @available(macOS 11.0, *)
 extension Color {
-    func toHexString() -> String {
+    public func toHexString() -> String {
         guard let components = NSColor(self).cgColor.components, components.count >= 3 else {
             return "FFFFFF" // Return white as default if color conversion fails
         }

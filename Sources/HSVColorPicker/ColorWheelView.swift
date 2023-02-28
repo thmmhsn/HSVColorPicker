@@ -115,8 +115,8 @@ public struct ColorWheelView: View {
 }
 
 @available(macOS 11.0, *)
-struct ColorWheelView_Preview: PreviewProvider {
-    static var previews: some View {
+public struct ColorWheelView_Preview: PreviewProvider {
+    public static var previews: some View {
         ColorWheelView(colorSelection: .constant(.red), location: .constant(CGPoint(x: 0, y: 0)), hue: .constant(0.0), saturation: .constant(0.0), brightness: .constant(0.0))
     }
 }
