@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MacTest
+//  HSVColorPickerExample
 //
 //  Created by Thameem Hassan on 2/28/23.
 //
@@ -11,7 +11,10 @@ import HSVColorPicker
 struct ContentView: View {
     @State var colorSelection : Color = .red
     var body: some View {
-        HSVColorPicker(colorSelection: $colorSelection)  
+        VStack {
+            HSVColorPicker(colorSelection: $colorSelection)
+        }.padding(100.0)
+        
     }
 }
 

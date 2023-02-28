@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C18CDF729AE21C10069C73A /* MacTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CDF629AE21C10069C73A /* MacTestApp.swift */; };
-		5C18CDF929AE21C10069C73A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CDF829AE21C10069C73A /* ContentView.swift */; };
-		5C18CDFB29AE21C60069C73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C18CDFA29AE21C60069C73A /* Assets.xcassets */; };
-		5C18CDFE29AE21C60069C73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C18CDFD29AE21C60069C73A /* Preview Assets.xcassets */; };
-		5C18CE0729AE21F80069C73A /* HSVColorPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5C18CE0629AE21F80069C73A /* HSVColorPicker */; };
+		5C18CE1529AE79AB0069C73A /* HSVColorPickerExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CE1429AE79AB0069C73A /* HSVColorPickerExampleApp.swift */; };
+		5C18CE1729AE79AB0069C73A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18CE1629AE79AB0069C73A /* ContentView.swift */; };
+		5C18CE1929AE79AD0069C73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C18CE1829AE79AD0069C73A /* Assets.xcassets */; };
+		5C18CE1C29AE79AD0069C73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C18CE1B29AE79AD0069C73A /* Preview Assets.xcassets */; };
+		5C18CE2529AE79DE0069C73A /* HSVColorPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5C18CE2429AE79DE0069C73A /* HSVColorPicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C18CDF329AE21C10069C73A /* MacTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C18CDF629AE21C10069C73A /* MacTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTestApp.swift; sourceTree = "<group>"; };
-		5C18CDF829AE21C10069C73A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5C18CDFA29AE21C60069C73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C18CDFD29AE21C60069C73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C18CDFF29AE21C60069C73A /* MacTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTest.entitlements; sourceTree = "<group>"; };
+		5C18CE1129AE79AB0069C73A /* HSVColorPickerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSVColorPickerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C18CE1429AE79AB0069C73A /* HSVColorPickerExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSVColorPickerExampleApp.swift; sourceTree = "<group>"; };
+		5C18CE1629AE79AB0069C73A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C18CE1829AE79AD0069C73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C18CE1B29AE79AD0069C73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5C18CE1D29AE79AD0069C73A /* HSVColorPickerExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HSVColorPickerExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5C18CDF029AE21C00069C73A /* Frameworks */ = {
+		5C18CE0E29AE79AB0069C73A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C18CE0729AE21F80069C73A /* HSVColorPicker in Frameworks */,
+				5C18CE2529AE79DE0069C73A /* HSVColorPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5C18CDEA29AE21C00069C73A = {
+		5C18CE0829AE79AB0069C73A = {
 			isa = PBXGroup;
 			children = (
-				5C18CDF529AE21C10069C73A /* MacTest */,
-				5C18CDF429AE21C10069C73A /* Products */,
+				5C18CE1329AE79AB0069C73A /* HSVColorPickerExample */,
+				5C18CE1229AE79AB0069C73A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5C18CDF429AE21C10069C73A /* Products */ = {
+		5C18CE1229AE79AB0069C73A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C18CDF329AE21C10069C73A /* MacTest.app */,
+				5C18CE1129AE79AB0069C73A /* HSVColorPickerExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C18CDF529AE21C10069C73A /* MacTest */ = {
+		5C18CE1329AE79AB0069C73A /* HSVColorPickerExample */ = {
 			isa = PBXGroup;
 			children = (
-				5C18CDF629AE21C10069C73A /* MacTestApp.swift */,
-				5C18CDF829AE21C10069C73A /* ContentView.swift */,
-				5C18CDFA29AE21C60069C73A /* Assets.xcassets */,
-				5C18CDFF29AE21C60069C73A /* MacTest.entitlements */,
-				5C18CDFC29AE21C60069C73A /* Preview Content */,
+				5C18CE1429AE79AB0069C73A /* HSVColorPickerExampleApp.swift */,
+				5C18CE1629AE79AB0069C73A /* ContentView.swift */,
+				5C18CE1829AE79AD0069C73A /* Assets.xcassets */,
+				5C18CE1D29AE79AD0069C73A /* HSVColorPickerExample.entitlements */,
+				5C18CE1A29AE79AD0069C73A /* Preview Content */,
 			);
-			path = MacTest;
+			path = HSVColorPickerExample;
 			sourceTree = "<group>";
 		};
-		5C18CDFC29AE21C60069C73A /* Preview Content */ = {
+		5C18CE1A29AE79AD0069C73A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				5C18CDFD29AE21C60069C73A /* Preview Assets.xcassets */,
+				5C18CE1B29AE79AD0069C73A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -74,42 +74,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C18CDF229AE21C00069C73A /* MacTest */ = {
+		5C18CE1029AE79AB0069C73A /* HSVColorPickerExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C18CE0229AE21C60069C73A /* Build configuration list for PBXNativeTarget "MacTest" */;
+			buildConfigurationList = 5C18CE2029AE79AD0069C73A /* Build configuration list for PBXNativeTarget "HSVColorPickerExample" */;
 			buildPhases = (
-				5C18CDEF29AE21C00069C73A /* Sources */,
-				5C18CDF029AE21C00069C73A /* Frameworks */,
-				5C18CDF129AE21C00069C73A /* Resources */,
+				5C18CE0D29AE79AB0069C73A /* Sources */,
+				5C18CE0E29AE79AB0069C73A /* Frameworks */,
+				5C18CE0F29AE79AB0069C73A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MacTest;
+			name = HSVColorPickerExample;
 			packageProductDependencies = (
-				5C18CE0629AE21F80069C73A /* HSVColorPicker */,
+				5C18CE2429AE79DE0069C73A /* HSVColorPicker */,
 			);
-			productName = MacTest;
-			productReference = 5C18CDF329AE21C10069C73A /* MacTest.app */;
+			productName = HSVColorPickerExample;
+			productReference = 5C18CE1129AE79AB0069C73A /* HSVColorPickerExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5C18CDEB29AE21C00069C73A /* Project object */ = {
+		5C18CE0929AE79AB0069C73A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					5C18CDF229AE21C00069C73A = {
+					5C18CE1029AE79AB0069C73A = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 5C18CDEE29AE21C00069C73A /* Build configuration list for PBXProject "MacTest" */;
+			buildConfigurationList = 5C18CE0C29AE79AB0069C73A /* Build configuration list for PBXProject "HSVColorPickerExample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,45 +117,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 5C18CDEA29AE21C00069C73A;
+			mainGroup = 5C18CE0829AE79AB0069C73A;
 			packageReferences = (
-				5C18CE0529AE21F80069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */,
+				5C18CE2329AE79DE0069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */,
 			);
-			productRefGroup = 5C18CDF429AE21C10069C73A /* Products */;
+			productRefGroup = 5C18CE1229AE79AB0069C73A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C18CDF229AE21C00069C73A /* MacTest */,
+				5C18CE1029AE79AB0069C73A /* HSVColorPickerExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C18CDF129AE21C00069C73A /* Resources */ = {
+		5C18CE0F29AE79AB0069C73A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C18CDFE29AE21C60069C73A /* Preview Assets.xcassets in Resources */,
-				5C18CDFB29AE21C60069C73A /* Assets.xcassets in Resources */,
+				5C18CE1C29AE79AD0069C73A /* Preview Assets.xcassets in Resources */,
+				5C18CE1929AE79AD0069C73A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C18CDEF29AE21C00069C73A /* Sources */ = {
+		5C18CE0D29AE79AB0069C73A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C18CDF929AE21C10069C73A /* ContentView.swift in Sources */,
-				5C18CDF729AE21C10069C73A /* MacTestApp.swift in Sources */,
+				5C18CE1729AE79AB0069C73A /* ContentView.swift in Sources */,
+				5C18CE1529AE79AB0069C73A /* HSVColorPickerExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5C18CE0029AE21C60069C73A /* Debug */ = {
+		5C18CE1E29AE79AD0069C73A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		5C18CE0129AE21C60069C73A /* Release */ = {
+		5C18CE1F29AE79AD0069C73A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,18 +268,16 @@
 			};
 			name = Release;
 		};
-		5C18CE0329AE21C60069C73A /* Debug */ = {
+		5C18CE2129AE79AD0069C73A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacTest/MacTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HSVColorPickerExample/HSVColorPickerExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MacTest/Preview Content\"";
-				DEVELOPMENT_TEAM = GTF45UH2VQ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HSVColorPickerExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -287,26 +285,25 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.th.MacTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.th.HSVColorPickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		5C18CE0429AE21C60069C73A /* Release */ = {
+		5C18CE2229AE79AD0069C73A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacTest/MacTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = HSVColorPickerExample/HSVColorPickerExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MacTest/Preview Content\"";
-				DEVELOPMENT_TEAM = GTF45UH2VQ;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HSVColorPickerExample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -314,8 +311,9 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.th.MacTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.th.HSVColorPickerExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,20 +323,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C18CDEE29AE21C00069C73A /* Build configuration list for PBXProject "MacTest" */ = {
+		5C18CE0C29AE79AB0069C73A /* Build configuration list for PBXProject "HSVColorPickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C18CE0029AE21C60069C73A /* Debug */,
-				5C18CE0129AE21C60069C73A /* Release */,
+				5C18CE1E29AE79AD0069C73A /* Debug */,
+				5C18CE1F29AE79AD0069C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C18CE0229AE21C60069C73A /* Build configuration list for PBXNativeTarget "MacTest" */ = {
+		5C18CE2029AE79AD0069C73A /* Build configuration list for PBXNativeTarget "HSVColorPickerExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C18CE0329AE21C60069C73A /* Debug */,
-				5C18CE0429AE21C60069C73A /* Release */,
+				5C18CE2129AE79AD0069C73A /* Debug */,
+				5C18CE2229AE79AD0069C73A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -346,7 +344,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5C18CE0529AE21F80069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */ = {
+		5C18CE2329AE79DE0069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/thmmhsn/HSVColorPicker.git";
 			requirement = {
@@ -357,12 +355,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5C18CE0629AE21F80069C73A /* HSVColorPicker */ = {
+		5C18CE2429AE79DE0069C73A /* HSVColorPicker */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5C18CE0529AE21F80069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */;
+			package = 5C18CE2329AE79DE0069C73A /* XCRemoteSwiftPackageReference "HSVColorPicker" */;
 			productName = HSVColorPicker;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5C18CDEB29AE21C00069C73A /* Project object */;
+	rootObject = 5C18CE0929AE79AB0069C73A /* Project object */;
 }
