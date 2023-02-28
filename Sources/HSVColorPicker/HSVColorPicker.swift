@@ -9,23 +9,17 @@ import SwiftUI
 
 @available(macOS 11.0, *)
 public struct HSVColorPicker: View {
-    @State public var showColorPicker : Bool
-    @State public var colorSelection : Color
-    @State public var hue : Double
-    @State public var brightness : Double
-    @State public var saturation : Double
-    @State public var wheelLocation : CGPoint
-    @State public var sliderLocation : Double
+    @State public var showColorPicker : Bool = false
+    @State public var hue : Double = 0
+    @Binding public var colorSelection : Color
+    @State public var brightness : Double = 1.0
+    @State public var saturation : Double = 0.0
+    @State public var wheelLocation : CGPoint = CGPoint(x: 90.0, y: 90.0)
+    @State public var sliderLocation : Double = 10.0
     static var text : String = "Hello, World!"
     
-    public init(){
-        showColorPicker = false
-        colorSelection = .white
-        hue = 0
-        brightness = 1.0
-        saturation = 0.0
-        wheelLocation = CGPoint(x: 90.0, y: 90.0)
-        sliderLocation = 10.0
+    public init(colorSelection:Binding<Color>){
+        self._colorSelection = colorSelection
     }
     public var body: some View {
             Button{
@@ -56,6 +50,6 @@ public struct HSVColorPicker: View {
 @available(macOS 11.0, *)
 public struct HSVColorPicker_Previews: PreviewProvider {
     public static var previews: some View {
-        HSVColorPicker()
+        HSVColorPicker(colorSelection: .constant(.red))
     }
 }
