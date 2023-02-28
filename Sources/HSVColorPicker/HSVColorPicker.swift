@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(macOS 11.0, *)
-struct HSVColorPicker: View {
+struct HueColorPicker: View {
     @State public var showColorPicker = false
     @State public var colorSelection : Color = .white
     @State public var hue : Double = 0
@@ -45,6 +45,6 @@ struct HSVColorPicker: View {
 @available(macOS 11.0, *)
 struct HSVColorPicker_Previews: PreviewProvider {
     static var previews: some View {
-        HSVColorPicker()
+        HueColorPicker()
     }
 }
