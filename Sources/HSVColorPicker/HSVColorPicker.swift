@@ -33,16 +33,16 @@ public struct HSVColorPicker: View {
                     Spacer()
                 }.frame(width: 90.0)
             }.buttonStyle(.borderless)
-                .popover(isPresented: $showColorPicker, arrowEdge: .bottom) {
-                    MainView(
-                        colorSelection: $colorSelection,
-                        hue: $hue,
-                        brightness: $brightness,
-                        saturation: $saturation,
-                        wheelLocation: $wheelLocation,
-                        sliderLocation: $sliderLocation
-                    )
-                }
+            .popover(isPresented: $showColorPicker, arrowEdge: .bottom) {
+                MainView(
+                    colorSelection: $colorSelection,
+                    hue: $hue,
+                    brightness: $brightness,
+                    saturation: $saturation,
+                    wheelLocation: $wheelLocation,
+                    sliderLocation: $sliderLocation
+                )
+            }
        
     }
 }
