@@ -4,7 +4,7 @@ HSVColorPicker
 
 ![SwiftUI Support](https://shields.io/badge/SwiftUI-macOS%20v11.0%20-green?logo=Swift&style=flat)
 
-A simple popup color picker wheel for macOS.
+A simple popup color wheel for macOS.
 
 ![HSVColorpicker example Screenshot](https://user-images.githubusercontent.com/95959772/221931675-c705438c-b272-4ad4-88e9-8fb604d24a2e.png)
 
