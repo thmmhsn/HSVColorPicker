@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "hsvcolorpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/thmmhsn/HSVColorPicker.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "70816dec0dd821b990d5961a55564b1a2c92ce0c"
+      }
+    }
+  ],
+  "version" : 2
+}
