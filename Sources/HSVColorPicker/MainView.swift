@@ -16,7 +16,7 @@ struct MainView: View {
     @Binding public var wheelLocation : CGPoint
     @Binding public var sliderLocation : Double
   
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 0){
             
             ColorWheelView(colorSelection: $colorSelection, location: $wheelLocation, hue: $hue, saturation: $saturation, brightness: $brightness)
