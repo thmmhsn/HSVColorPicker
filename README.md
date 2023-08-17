@@ -15,7 +15,7 @@ You can add HSVColorPicker to an Xcode project by adding it as a package depende
 
 1. From the File menu, select Add Packages…
 2. Enter https://github.com/thmmhsn/HSVColorPicker in Search or Enter Package URL search field
-3. Link `Markdown` to your application target
+3. Link `HSVColorPicker` to your application target
 
 Or add the following to `Package.swift`:
 
